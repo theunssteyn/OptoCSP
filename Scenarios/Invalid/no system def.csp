@@ -1,0 +1,5 @@
+PROCESS:
+P = meas_p -> comm -> P
+Q = meas_q -> comm -> Q
+
+WSN = P [|||comm|||] Q

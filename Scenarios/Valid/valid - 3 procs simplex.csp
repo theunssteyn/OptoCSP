@@ -1,0 +1,7 @@
+PROCESS:
+P = ( meas_p -> commQ! -> P ) [] ( meas_p -> commR! -> P )
+Q = meas_q -> commQ? -> Q
+R = meas_r -> commR? -> R
+
+SYSTEM:
+WSN = P [|||commQ,commR|||] Q [|||commQ,commR|||] R
