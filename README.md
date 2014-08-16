@@ -1,24 +1,21 @@
-OpTrace
+OptoCSP
 =======
 
-OpTrace is a CSP trace generator used for trace refinement checks of Optional Parallelism in CSP
+OptoCSP is a translator application used to translate CSP definitions containing the Optional Parallel Operator to classical CSP operators, based on the translation presented in the Masters Dissertation of the author.
 
 
-Compiling OpTrace:
+Compiling OptoCSP:
 ==================
 1. Open solution file in Microsoft Visual Studio 2012
 2. Build program 
 
 
-Optrace needs the following to run:
+OptoCSP needs the following to run:
 ===================================
 
 1. Microsoft .Net 4.5
-2. ProB installed with installation path set in "path" environment variable.
 
 
-Input adjacency list:
+Input files:
 =====================
-The input adjacency list has the following required format:
-{P,Q}
-(P,Q)
+Please check the "definitions" directory
