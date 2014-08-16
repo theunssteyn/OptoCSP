@@ -18,4 +18,4 @@ OptoCSP needs the following to run:
 
 Input files:
 =====================
-Please check the "definitions" directory
+Please check the "Scenarios" directory
