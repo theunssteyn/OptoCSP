@@ -7,3 +7,12 @@ C:\Dropbox\Varsity\Masters\Simulator\OptoCSP\OptoCSP\obj\Debug\OptoCSP.Propertie
 C:\Dropbox\Varsity\Masters\Simulator\OptoCSP\OptoCSP\obj\Debug\OptoCSP.csproj.GenerateResource.Cache
 C:\Dropbox\Varsity\Masters\Simulator\OptoCSP\OptoCSP\obj\Debug\OptoCSP.exe
 C:\Dropbox\Varsity\Masters\Simulator\OptoCSP\OptoCSP\obj\Debug\OptoCSP.pdb
+C:\Dropbox\Varsity\Masters\Software\Repositories\OptoCSP\OptoCSP\bin\Debug\OptoCSP.exe.config
+C:\Dropbox\Varsity\Masters\Software\Repositories\OptoCSP\OptoCSP\obj\Debug\OptoCSP.exe
+C:\Dropbox\Varsity\Masters\Software\Repositories\OptoCSP\OptoCSP\obj\Debug\OptoCSP.pdb
+C:\Dropbox\Varsity\Masters\Software\Repositories\OptoCSP\OptoCSP\bin\Debug\OptoCSP.exe
+C:\Dropbox\Varsity\Masters\Software\Repositories\OptoCSP\OptoCSP\bin\Debug\OptoCSP.pdb
+C:\Dropbox\Varsity\Masters\Software\Repositories\OptoCSP\OptoCSP\obj\Debug\OptoCSP.csprojResolveAssemblyReference.cache
+C:\Dropbox\Varsity\Masters\Software\Repositories\OptoCSP\OptoCSP\obj\Debug\OptoCSP.Form1.resources
+C:\Dropbox\Varsity\Masters\Software\Repositories\OptoCSP\OptoCSP\obj\Debug\OptoCSP.Properties.Resources.resources
+C:\Dropbox\Varsity\Masters\Software\Repositories\OptoCSP\OptoCSP\obj\Debug\OptoCSP.csproj.GenerateResource.Cache

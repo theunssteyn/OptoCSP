@@ -1,0 +1,8 @@
+PROCESS:
+P = ( sense_p -> calculate_p -> communicate -> P ) |~| ( sleep_p -> P )
+Q = ( sense_q -> calculate_q -> communicate -> Q ) |~| ( sleep_q -> Q )
+R = ( sense_r -> calculate_r -> communicate -> R ) |~| ( sleep_r -> R )
+S = ( sense_s -> calculate_s -> communicate -> S ) |~| ( sleep_s -> S )
+
+SYSTEM:
+WSN = P [|||communicate|||] Q [|||communicate|||] R [|||communicate|||] S

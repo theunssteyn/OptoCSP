@@ -1,0 +1,9 @@
+C:\Dropbox\Varsity\Masters\Software\Repositories\OptoCSP\OptoCSP\bin\Release\OptoCSP.exe.config
+C:\Dropbox\Varsity\Masters\Software\Repositories\OptoCSP\OptoCSP\bin\Release\OptoCSP.exe
+C:\Dropbox\Varsity\Masters\Software\Repositories\OptoCSP\OptoCSP\bin\Release\OptoCSP.pdb
+C:\Dropbox\Varsity\Masters\Software\Repositories\OptoCSP\OptoCSP\obj\Release\OptoCSP.csprojResolveAssemblyReference.cache
+C:\Dropbox\Varsity\Masters\Software\Repositories\OptoCSP\OptoCSP\obj\Release\OptoCSP.Form1.resources
+C:\Dropbox\Varsity\Masters\Software\Repositories\OptoCSP\OptoCSP\obj\Release\OptoCSP.Properties.Resources.resources
+C:\Dropbox\Varsity\Masters\Software\Repositories\OptoCSP\OptoCSP\obj\Release\OptoCSP.csproj.GenerateResource.Cache
+C:\Dropbox\Varsity\Masters\Software\Repositories\OptoCSP\OptoCSP\obj\Release\OptoCSP.exe
+C:\Dropbox\Varsity\Masters\Software\Repositories\OptoCSP\OptoCSP\obj\Release\OptoCSP.pdb

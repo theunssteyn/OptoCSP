@@ -1,0 +1,15 @@
+P = ( sense_p -> calculate_p -> communicate_p -> P ) |~| ( sleep_p -> P )
+Q = ( sense_q -> calculate_q -> communicate_q -> Q ) |~| ( sleep_q -> Q )
+R = ( sense_r -> calculate_r -> communicate_r -> R ) |~| ( sleep_r -> R )
+S = ( sense_s -> calculate_s -> communicate_s -> S ) |~| ( sleep_s -> S )
+
+CHP_communicate = ( communicate -> ( ( communicate_p -> CHP_communicate ) [] ( CHP_communicate ) ) ) [] ( communicate_p -> ( ( communicate -> CHP_communicate ) [] ( CHP_communicate ) ) )
+CHQ_communicate = ( communicate -> ( ( communicate_q -> CHQ_communicate ) [] ( CHQ_communicate ) ) ) [] ( communicate_q -> ( ( communicate -> CHQ_communicate ) [] ( CHQ_communicate ) ) )
+CHR_communicate = ( communicate -> ( ( communicate_r -> CHR_communicate ) [] ( CHR_communicate ) ) ) [] ( communicate_r -> ( ( communicate -> CHR_communicate ) [] ( CHR_communicate ) ) )
+CHS_communicate = ( communicate -> ( ( communicate_s -> CHS_communicate ) [] ( CHS_communicate ) ) ) [] ( communicate_s -> ( ( communicate -> CHS_communicate ) [] ( CHS_communicate ) ) )
+
+WSN = ( P ||| Q ||| R ||| S ) [| {communicate_p, communicate_q, communicate_r, communicate_s} |] ( CHP_communicate [| {communicate} |] CHQ_communicate [| {communicate} |] CHR_communicate [| {communicate} |] CHS_communicate )
+
+MAIN = WSN
+
+channel sense_p, calculate_p, communicate_p, sleep_p, sense_q, calculate_q, communicate_q, sleep_q, sense_r, calculate_r, communicate_r, sleep_r, sense_s, calculate_s, communicate_s, sleep_s, communicate

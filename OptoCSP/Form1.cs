@@ -67,6 +67,9 @@ namespace OptoCSP
                         /* Write the file */
                         TextWriter tw = new StreamWriter(sfd.FileName);
                         tw.Write(outputString);
+                        tw.Close();
+
+                        MessageBox.Show("The file was successfully saved.", "File Save", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
             }
@@ -95,7 +98,9 @@ namespace OptoCSP
                     DefinitionAnalyser def = new DefinitionAnalyser(scheck.processList, scheck.system);
                     if (def.Analyse())
                     {
-                        richTextBoxOutput.Text = def.GenerateOutput();
+                        outputString = def.GenerateOutput();
+                        richTextBoxOutput.Text = outputString;
+
                         textBoxProcessCount.Text = def.Processes.Count.ToString();
                         textBoxChannelCount.Text = def.Channels.Count.ToString();
                     }
